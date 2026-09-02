@@ -1,0 +1,192 @@
+@import "tailwindcss";
+
+/* =====================================================
+   MIKAASIH APP — Global CSS & Dynamic Theme Tokens
+   Light (Warm Editorial) & Dark (Midnight Obsidian)
+   ===================================================== */
+
+:root {
+  --bg-canvas: #FDFBF7;
+  --text-primary: #1C1917;
+  --text-secondary: #44403C;
+  --text-muted: #78716C;
+  --text-subtle: #A8A29E;
+
+  --glass-bg: rgba(255, 255, 255, 0.76);
+  --glass-border: rgba(255, 255, 255, 0.75);
+  --glass-shadow: 0 8px 32px rgba(28, 25, 23, 0.06);
+
+  --modal-bg: rgba(255, 255, 255, 0.98);
+  --modal-border: rgba(120, 113, 108, 0.18);
+  --modal-shadow: 0 24px 48px rgba(28, 25, 23, 0.12);
+
+  --box-bg: rgba(255, 255, 255, 0.62);
+  --box-border: rgba(255, 255, 255, 0.85);
+
+  --input-bg: rgba(255, 255, 255, 0.75);
+  --input-bg-focus: rgba(255, 255, 255, 0.95);
+  --input-border: rgba(120, 113, 108, 0.22);
+  --input-text: #1C1917;
+
+  --track-bg: rgba(120, 113, 108, 0.12);
+  --primary-btn-bg: linear-gradient(135deg, #1C1917 0%, #3B2F2F 100%);
+  --secondary-btn-bg: rgba(255, 255, 255, 0.80);
+  --secondary-btn-border: rgba(28, 25, 23, 0.15);
+  --secondary-btn-text: #1C1917;
+}
+
+html.dark {
+  --bg-canvas: #0A0812;
+  --text-primary: #FFFFFF;
+  --text-secondary: #E7E5E4;
+  --text-muted: #D6D3D1;
+  --text-subtle: #A8A29E;
+
+  --glass-bg: rgba(20, 17, 30, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-shadow: 0 12px 40px rgba(0, 0, 0, 0.65);
+
+  --modal-bg: rgba(20, 17, 32, 0.98);
+  --modal-border: rgba(255, 255, 255, 0.14);
+  --modal-shadow: 0 24px 60px rgba(0, 0, 0, 0.80);
+
+  --box-bg: rgba(255, 255, 255, 0.07);
+  --box-border: rgba(255, 255, 255, 0.12);
+
+  --input-bg: rgba(255, 255, 255, 0.08);
+  --input-bg-focus: rgba(255, 255, 255, 0.14);
+  --input-border: rgba(255, 255, 255, 0.22);
+  --input-text: #FFFFFF;
+
+  --track-bg: rgba(255, 255, 255, 0.10);
+  --primary-btn-bg: linear-gradient(135deg, #E11D48 0%, #BE123C 100%);
+  --secondary-btn-bg: rgba(255, 255, 255, 0.10);
+  --secondary-btn-border: rgba(255, 255, 255, 0.18);
+  --secondary-btn-text: #FFFFFF;
+}
+
+/* ── Base ─────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection {
+  background-color: #FFE4E6;
+  color: #9F1239;
+}
+
+html.dark ::selection {
+  background-color: #881337;
+  color: #FFE4E6;
+}
+
+/* ── Scrollbar Hide ───────────────────────────────── */
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* ── Frosted Glass ────────────────────────────────── */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ── Dynamic Modal ────────────────────────────────── */
+.theme-modal {
+  background: var(--modal-bg) !important;
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  border: 1px solid var(--modal-border) !important;
+  box-shadow: var(--modal-shadow) !important;
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ── Dynamic Text Colors ──────────────────────────── */
+.theme-text-primary {
+  color: var(--text-primary) !important;
+}
+
+.theme-text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+.theme-text-muted {
+  color: var(--text-muted) !important;
+}
+
+.theme-text-subtle {
+  color: var(--text-subtle) !important;
+}
+
+/* ── Dynamic Box & Input ──────────────────────────── */
+.theme-box {
+  background: var(--box-bg) !important;
+  border: 1px solid var(--box-border) !important;
+}
+
+.theme-input {
+  background: var(--input-bg) !important;
+  border: 1px solid var(--input-border) !important;
+  color: var(--input-text) !important;
+}
+
+.theme-input:focus {
+  background: var(--input-bg-focus) !important;
+}
+
+/* ── Shimmer Animation ────────────────────────────── */
+@keyframes shimmer {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(300%); }
+}
+
+.shimmer-bar::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.45) 50%, transparent 100%);
+  animation: shimmer 2.2s infinite ease-in-out;
+}
+
+/* ── Blob Float Animations ────────────────────────── */
+@keyframes float-slow {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  33%       { transform: translate(20px, -15px) scale(1.05); }
+  66%       { transform: translate(-10px, 10px) scale(0.97); }
+}
+
+@keyframes float-medium {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  33%       { transform: translate(-18px, 12px) scale(1.04); }
+  66%       { transform: translate(15px, -8px) scale(0.98); }
+}
+
+@keyframes float-fast {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  50%       { transform: translate(12px, -20px) scale(1.06); }
+}
+
+.blob-1 { animation: float-slow   18s ease-in-out infinite; }
+.blob-2 { animation: float-medium 22s ease-in-out infinite; }
+.blob-3 { animation: float-fast   15s ease-in-out infinite; }

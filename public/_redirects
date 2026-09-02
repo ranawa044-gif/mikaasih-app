@@ -1,0 +1,6 @@
+/*
+  EdgeOne Pages / Netlify SPA Fallback
+  Semua path di-redirect ke index.html agar React Router
+  (atau view state) bisa menangani navigasi sisi klien.
+*/
+/*  /index.html  200

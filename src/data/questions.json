@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1, "pair_code": "W_vs_Q_1",
+    "option_a": { "dimension": "W", "text": "Pasangan memuji kerja keras dan pencapaian saya secara tulus." },
+    "option_b": { "dimension": "Q", "text": "Pasangan meluangkan waktu mengobrol mendalam tanpa terganggu ponsel." }
+  },
+  {
+    "id": 2, "pair_code": "W_vs_Q_2",
+    "option_a": { "dimension": "W", "text": "Pasangan memberikan kata-kata penyemangat saat saya sedang lelah atau cemas." },
+    "option_b": { "dimension": "Q", "text": "Pasangan mengajak jalan-jalan santai berdua untuk menikmati waktu luang." }
+  },
+  {
+    "id": 3, "pair_code": "W_vs_Q_3",
+    "option_a": { "dimension": "W", "text": "Pasangan secara spontan memuji sifat baik atau karakter positif saya." },
+    "option_b": { "dimension": "Q", "text": "Pasangan meluangkan satu hari penuh di akhir pekan untuk melakukan hobi bersama." }
+  },
+  {
+    "id": 4, "pair_code": "W_vs_G_1",
+    "option_a": { "dimension": "W", "text": "Pasangan mengirim pesan teks penuh apresiasi di sela-sela kesibukannya." },
+    "option_b": { "dimension": "G", "text": "Pasangan memberi kejutan barang kecil yang saya sukai tanpa ada momen khusus." }
+  },
+  {
+    "id": 5, "pair_code": "W_vs_G_2",
+    "option_a": { "dimension": "W", "text": "Pasangan menyampaikan secara lisan betapa berharganya keberadaan saya baginya." },
+    "option_b": { "dimension": "G", "text": "Pasangan membawakan oleh-oleh khusus yang sengaja dicari saat bepergian." }
+  },
+  {
+    "id": 6, "pair_code": "W_vs_G_3",
+    "option_a": { "dimension": "W", "text": "Pasangan mengucapkan terima kasih yang tulus di hadapan orang lain atas peran saya." },
+    "option_b": { "dimension": "G", "text": "Pasangan membelikan barang yang sudah lama saya idam-idamkan." }
+  },
+  {
+    "id": 7, "pair_code": "W_vs_S_1",
+    "option_a": { "dimension": "W", "text": "Pasangan memuji kepandaian saya saat berhasil menyelesaikan urusan penting." },
+    "option_b": { "dimension": "S", "text": "Pasangan langsung turun tangan membantu meringankan tugas saya." }
+  },
+  {
+    "id": 8, "pair_code": "W_vs_S_2",
+    "option_a": { "dimension": "W", "text": "Pasangan meyakinkan saya lewat kata-kata positif saat situasi sedang penuh tekanan." },
+    "option_b": { "dimension": "S", "text": "Pasangan berinisiatif mengurus kebutuhan logistik/praktis saat saya sangat sibuk." }
+  },
+  {
+    "id": 9, "pair_code": "W_vs_S_3",
+    "option_a": { "dimension": "W", "text": "Pasangan menyatakan rasa bangga dan percaya penuh pada keputusan saya." },
+    "option_b": { "dimension": "S", "text": "Pasangan memperbaiki atau merapikan hal-hal yang membuat saya kerepotan." }
+  },
+  {
+    "id": 10, "pair_code": "W_vs_T_1",
+    "option_a": { "dimension": "W", "text": "Pasangan mengatakan secara jelas bahwa ia sangat menyayangi saya." },
+    "option_b": { "dimension": "T", "text": "Pasangan menyambut saya dengan pelukan hangat saat pertama kali bertemu." }
+  },
+  {
+    "id": 11, "pair_code": "W_vs_T_2",
+    "option_a": { "dimension": "W", "text": "Pasangan memberikan validasi verbal saat saya membutuhkan kepastian emosional." },
+    "option_b": { "dimension": "T", "text": "Pasangan menggenggam erat tangan saya saat sedang berjalan bersama." }
+  },
+  {
+    "id": 12, "pair_code": "W_vs_T_3",
+    "option_a": { "dimension": "W", "text": "Pasangan memuji usaha kecil saya yang sering luput dari perhatian orang lain." },
+    "option_b": { "dimension": "T", "text": "Pasangan menenangkan saya lewat usapan lembut di bahu atau punggung." }
+  },
+  {
+    "id": 13, "pair_code": "Q_vs_G_1",
+    "option_a": { "dimension": "Q", "text": "Pasangan menikmati makan malam santai sambil berbincang fokus tanpa gawai." },
+    "option_b": { "dimension": "G", "text": "Pasangan memberi kado buatan tangan (handmade) yang sarat nilai personal." }
+  },
+  {
+    "id": 14, "pair_code": "Q_vs_G_2",
+    "option_a": { "dimension": "Q", "text": "Pasangan benar-benar mendengarkan cerita saya tanpa menyela atau menghakimi." },
+    "option_b": { "dimension": "G", "text": "Pasangan membelikan camilan atau barang kesukaan saat pulang beraktivitas." }
+  },
+  {
+    "id": 15, "pair_code": "Q_vs_G_3",
+    "option_a": { "dimension": "Q", "text": "Pasangan merencanakan agenda liburan singkat berdua saja ke tempat baru." },
+    "option_b": { "dimension": "G", "text": "Pasangan menghadiahkan benda simbolis yang merepresentasikan momen kenangan bersama." }
+  },
+  {
+    "id": 16, "pair_code": "Q_vs_S_1",
+    "option_a": { "dimension": "Q", "text": "Pasangan meluangkan waktu malam untuk duduk santai dan bertukar pikiran berdua." },
+    "option_b": { "dimension": "S", "text": "Pasangan membantu merapikan ruangan atau meja kerja saya tanpa diminta." }
+  },
+  {
+    "id": 17, "pair_code": "Q_vs_S_2",
+    "option_a": { "dimension": "Q", "text": "Pasangan setia menemani saya mengurus keperluan pribadi seharian penuh." },
+    "option_b": { "dimension": "S", "text": "Pasangan mengambil alih tanggung jawab harian agar saya bisa beristirahat total." }
+  },
+  {
+    "id": 18, "pair_code": "Q_vs_S_3",
+    "option_a": { "dimension": "Q", "text": "Pasangan memberikan perhatian penuh dan tidak membiarkan aktivitas lain mengganggu waktu berdua." },
+    "option_b": { "dimension": "S", "text": "Pasangan membuatkan minuman atau makanan hangat saat melihat saya kelelahan." }
+  },
+  {
+    "id": 19, "pair_code": "Q_vs_T_1",
+    "option_a": { "dimension": "Q", "text": "Pasangan menatap mata saya penuh perhatian saat kami sedang berbincang serius." },
+    "option_b": { "dimension": "T", "text": "Pasangan duduk merapat dan merangkul pundak saya secara santai." }
+  },
+  {
+    "id": 20, "pair_code": "Q_vs_T_2",
+    "option_a": { "dimension": "Q", "text": "Pasangan mendedikasikan akhir pekannya murni untuk berinteraksi bersama saya." },
+    "option_b": { "dimension": "T", "text": "Pasangan merangkul atau menggandeng tangan saya dengan nyaman di tempat umum." }
+  },
+  {
+    "id": 21, "pair_code": "Q_vs_T_3",
+    "option_a": { "dimension": "Q", "text": "Pasangan mengesampingkan urusan lain demi mendengarkan keluh kesah saya seharian." },
+    "option_b": { "dimension": "T", "text": "Pasangan memegang jemari saya untuk memberikan ketenangan saat saya merasa gelisah." }
+  },
+  {
+    "id": 22, "pair_code": "G_vs_S_1",
+    "option_a": { "dimension": "G", "text": "Pasangan membawakan paket barang kejutan sebagai wujud perhatiannya." },
+    "option_b": { "dimension": "S", "text": "Pasangan beraksi nyata membantu membereskan masalah rumit yang sedang saya hadapi." }
+  },
+  {
+    "id": 23, "pair_code": "G_vs_S_2",
+    "option_a": { "dimension": "G", "text": "Pasangan mengirimkan makanan favorit saya melalui kurir saat jam sibuk." },
+    "option_b": { "dimension": "S", "text": "Pasangan memasakkan hidangan secara langsung untuk saya saat sedang lelah." }
+  },
+  {
+    "id": 24, "pair_code": "G_vs_S_3",
+    "option_a": { "dimension": "G", "text": "Pasangan membelikan perlengkapan fungsional yang memang sedang sangat saya butuhkan." },
+    "option_b": { "dimension": "S", "text": "Pasangan bersedia mengantar atau menjemput saya di tengah cuaca buruk tanpa diminta." }
+  },
+  {
+    "id": 25, "pair_code": "G_vs_T_1",
+    "option_a": { "dimension": "G", "text": "Pasangan memberi kado bermakna khusus untuk memperingati pencapaian berharga." },
+    "option_b": { "dimension": "T", "text": "Pasangan memeluk erat dan mendekap saya saat kami merayakan momen bahagia." }
+  },
+  {
+    "id": 26, "pair_code": "G_vs_T_2",
+    "option_a": { "dimension": "G", "text": "Pasangan memberi cinderamata kecil bernilai nostalgia yang mengingatkan padanya." },
+    "option_b": { "dimension": "T", "text": "Pasangan mengusap punggung tangan saya dengan lembut saat kami duduk berdampingan." }
+  },
+  {
+    "id": 27, "pair_code": "G_vs_T_3",
+    "option_a": { "dimension": "G", "text": "Pasangan meletakkan bingkisan kecil di meja saya untuk menceriakan hari saya." },
+    "option_b": { "dimension": "T", "text": "Pasangan menyentuh lembut kepala atau pundak saya saat lewat di dekat saya." }
+  },
+  {
+    "id": 28, "pair_code": "S_vs_T_1",
+    "option_a": { "dimension": "S", "text": "Pasangan menyiapkan sarapan atau keperluan esensial sebelum saya mulai beraktivitas." },
+    "option_b": { "dimension": "T", "text": "Pasangan memberikan pelukan hangat sebelum kami berpisah untuk beraktivitas masing-masing." }
+  },
+  {
+    "id": 29, "pair_code": "S_vs_T_2",
+    "option_a": { "dimension": "S", "text": "Pasangan merawat dan membelikan obat saat saya sedang jatuh sakit." },
+    "option_b": { "dimension": "T", "text": "Pasangan mengompres dahi dan mendekap saya untuk memberi rasa aman saat kondisi badan menurun." }
+  },
+  {
+    "id": 30, "pair_code": "S_vs_T_3",
+    "option_a": { "dimension": "S", "text": "Pasangan mengambil inisiatif mencuci piring atau membereskan rumah yang berantakan." },
+    "option_b": { "dimension": "T", "text": "Pasangan memijat bahu saya yang pegal setelah seharian menjalani rutinitas padat." }
+  }
+]
